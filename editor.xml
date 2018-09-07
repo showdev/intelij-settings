@@ -1,0 +1,56 @@
+<application>
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="HTML" value="true" />
+      </map>
+    </option>
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="STRIP_TRAILING_SPACES" value="Whole" />
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+  </component>
+  <component name="LiveEditOptions" restartIfHotSwapFailed="true" />
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern icon="important" pattern="\bfixme\b.*" />
+    <pattern icon="important" useCustomColors="true" pattern="\btodo-me\b.*">
+      <option name="FOREGROUND" value="991604" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="question" useCustomColors="true" pattern="\btodo-lauren\b.*">
+      <option name="FOREGROUND" value="c00a" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="question" useCustomColors="true" pattern="\btodo-sergey\b.*">
+      <option name="FOREGROUND" value="20c0" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="question" useCustomColors="true" pattern="\btodo-anton\b.*">
+      <option name="FOREGROUND" value="c0b9" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern icon="question" useCustomColors="true" pattern="\btodo-refactor\b.*">
+      <option name="FOREGROUND" value="be00c0" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <filter name="For Lauren" />
+    <filter name="For Sergey" />
+    <filter name="For Anton" />
+    <filter name="Not for me" />
+    <filter name="Need refactoring">
+      <pattern index="6" />
+    </filter>
+    <filter name="For me">
+      <pattern index="2" />
+    </filter>
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="insertQuotesForAttributeValue" value="false" />
+  </component>
+</application>

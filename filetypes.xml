@@ -1,0 +1,18 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="controller" type="ECMAScript 6" />
+      <mapping pattern="templates" type="HTML" />
+      <mapping pattern="api-integration" type="HTML" />
+      <mapping pattern="container-row" type="HTML" />
+      <mapping pattern=".modernizrrc" type="JSON" />
+      <mapping ext="factory" type="JavaScript" />
+      <mapping ext="config" type="JavaScript" />
+      <mapping pattern="veng-social-icons-preview" type="Native" />
+      <mapping ext="verions" type="PLAIN_TEXT" />
+      <mapping ext="component" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
+      <mapping pattern="signUpPlatformTerm" type="Vue.js" />
+    </extensionMap>
+  </component>
+</application>

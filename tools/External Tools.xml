@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="Start MongoDB" description="Start mongo up" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe" />
+      <option name="PARAMETERS" value="--config mongodb.config" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/a.shovgenia/WebstormProjects/cc-bmean/src/server/data" />
+    </exec>
+  </tool>
+  <tool name="cmder" description="Open cmder terminal" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\cmder\Cmder.exe" />
+      <option name="PARAMETERS" value="$FileDir$" />
+      <option name="WORKING_DIRECTORY" value="C:/cmder" />
+    </exec>
+  </tool>
+</toolSet>
