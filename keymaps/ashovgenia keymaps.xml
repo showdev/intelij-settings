@@ -12,8 +12,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt numpad0" />
   </action>
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+  </action>
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
   <action id="ShiftDownAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt comma" />
@@ -48,5 +50,8 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="Vcs.ReformatCommitMessage">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
   </action>
 </keymap>
