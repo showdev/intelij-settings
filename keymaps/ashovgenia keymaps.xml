@@ -1,10 +1,27 @@
 <keymap version="1" name="ashovgenia keymaps" parent="$default">
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="CompareClipboardWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
+  <action id="DecrementWindowHeight" />
+  <action id="IncrementWindowHeight" />
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
+  <action id="MethodDown" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveStatementUp" />
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift alt add" />
   </action>
@@ -20,6 +37,9 @@
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
   <action id="ShiftDownAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt comma" />
     <mouse-shortcut keystroke="shift control button142" />
@@ -36,6 +56,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt k" />
     <mouse-shortcut keystroke="shift control alt button143" />
   </action>
+  <action id="ShowContent" />
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
