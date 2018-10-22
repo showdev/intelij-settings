@@ -1,0 +1,8 @@
+<templateSet group="my-react">
+  <template name="enz" value="import React from 'react';&#10;import ReactDOM from 'react-dom';&#10;import { configure, shallow } from 'enzyme';&#10;import Adapter from 'enzyme-adapter-react-16';&#10;&#10;configure({ adapter: new Adapter() });&#10;&#10;describe('', () =&gt; {&#10;    &#10;})" description="Enzyme test template" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

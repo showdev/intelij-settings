@@ -1,5 +1,5 @@
 <templateSet group="AngularJS ES6 Templates">
-  <template name="ngapp" value="export const $moduleVar$ = angular&#10;    .module('$moduleName$', [&#10;        '$dependency$'$END$&#10;    ])&#10;&#10;    .name;" description="Creates an ES6 Angular module setter" toReformat="true" toShortenFQNames="true">
+  <template name="ngapp" value="export const $moduleVar$ = angular&#10;    .module('$moduleName$', [&#10;        '$dependency$'$END$&#10;    ])&#10;&#10;    .name;" description="Creates an ES6 Angular module setter" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="moduleVar" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="moduleName" expression="" defaultValue="&quot;moduleName&quot;" alwaysStopAt="true" />
     <variable name="dependency" expression="" defaultValue="&quot;dependency&quot;" alwaysStopAt="true" />
@@ -34,7 +34,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ngroute" value=".when('/$url$', {&#10;    template: require('$template$.html'),&#10;    controller: '$ControllerName$',&#10;    controllerAs: '$vm$'&#10;})$END$" description="Defines an ES6 Angular ngRoute 'when' definition" toReformat="true" toShortenFQNames="true">
+  <template name="ngroute" value=".when('/$url$', {&#10;    template: require('$template$.html'),&#10;    controller: '$ControllerName$',&#10;    controllerAs: '$vm$'&#10;})$END$" description="Defines an ES6 Angular ngRoute 'when' definition" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="url" expression="" defaultValue="&quot;url&quot;" alwaysStopAt="true" />
     <variable name="template" expression="" defaultValue="&quot;template&quot;" alwaysStopAt="true" />
     <variable name="ControllerName" expression="" defaultValue="&quot;ControllerName&quot;" alwaysStopAt="true" />
@@ -51,7 +51,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ngservice" value="export class $ServiceName$ {&#10;  /* @ngInject */&#10;  constructor() {&#10;    $constructor$&#10;  }&#10;&#10;  $functionName$() {&#10;     $functionNameFunction$&#10;  }&#10;}&#10;  &#10;$END$" description="Creates an ES6 Angular service" toReformat="true" toShortenFQNames="true">
+  <template name="ngservice" value="export class $ServiceName$ {&#10;  /* @ngInject */&#10;  constructor() {&#10;    $constructor$&#10;  }&#10;&#10;  $functionName$() {&#10;     $functionNameFunction$&#10;  }&#10;}&#10;  &#10;$END$" description="Creates an ES6 Angular service" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="constructor" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="functionName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="functionNameFunction" expression="" defaultValue="" alwaysStopAt="true" />
@@ -70,7 +70,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ngcomponent" value="import templateUrl from '$templatePath$';&#10;&#10;export const $ComponentName$ = {&#10;  templateUrl&#10;};" description="Creates an ES6 Angular component" toReformat="true" toShortenFQNames="true">
+  <template name="ngcomponent" value="import templateUrl from '$templatePath$';&#10;&#10;export const $ComponentName$ = {&#10;  templateUrl&#10;};" description="Creates an ES6 Angular component" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="templatePath" expression="" defaultValue="&quot;temlatePath&quot;" alwaysStopAt="true" />
     <variable name="ComponentName" expression="" defaultValue="&quot;ComponentName&quot;" alwaysStopAt="true" />
     <context>

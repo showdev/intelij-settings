@@ -1,5 +1,5 @@
 <templateSet group="ashovgenia's Templates">
-  <template name="iife" value="(function $functionName$($inputVariables$) {&#10;    &#10;    $SELECTION$&#10;    $END$&#10;})($inputVariables$);" description="Immidiately Invoked Function Expression" toReformat="false" toShortenFQNames="true">
+  <template name="iife" value="(function $functionName$($inputVariables$) {&#10;    &#10;    $SELECTION$&#10;    $END$&#10;})($inputVariables$);" description="Immidiately Invoked Function Expression" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="functionName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="inputVariables" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -7,12 +7,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="hqmod" value="angular.module('hqClientApp')" description="Angular module hqClientAppa" toReformat="false" toShortenFQNames="true">
+  <template name="hqmod" value="angular.module('hqClientApp')" description="Angular module hqClientAppa" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ngcomp" value="angular.module($moduleName$)&#10;   .component('$componentName$', {&#10;        templateUrl: '$templateUrl$',&#10;        controller: $controllerName$Controller,&#10;        controllerAs: 'vm'&#10;   });&#10;   &#10;/** @ngInject */&#10;function $controllerName$Controller($controllerParams$) {&#10;    var vm = this;&#10;    &#10;    $SELECTION$&#10;    &#10;    vm.$onInit = function () {&#10;    };&#10;    &#10;    $END$&#10;}&#10;&#10;&#10;   " description="Angular component" toReformat="false" toShortenFQNames="true">
+  <template name="ngcomp" value="angular.module($moduleName$)&#10;   .component('$componentName$', {&#10;        templateUrl: '$templateUrl$',&#10;        controller: $controllerName$Controller,&#10;        controllerAs: 'vm'&#10;   });&#10;   &#10;/** @ngInject */&#10;function $controllerName$Controller($controllerParams$) {&#10;    var vm = this;&#10;    &#10;    $SELECTION$&#10;    &#10;    vm.$onInit = function () {&#10;    };&#10;    &#10;    $END$&#10;}&#10;&#10;&#10;   " description="Angular component" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="moduleName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="componentName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="templateUrl" expression="" defaultValue="" alwaysStopAt="true" />
@@ -22,24 +22,24 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="delim" value="////////////////" description="functions delimiter" toReformat="false" toShortenFQNames="true">
+  <template name="delim" value="////////////////" description="functions delimiter" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="strict" value="'use strict';" description="use strict string" toReformat="false" toShortenFQNames="true">
+  <template name="strict" value="'use strict';" description="use strict string" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="@nodelog" value="console.log('\x1b[33m%s\x1b[0m:', '$comment$' , $variable$)" description="Reset = &quot;\x1b[0m&quot; Bright = &quot;\x1b[1m&quot; Dim = &quot;\x1b[2m&quot; Underscore = &quot;\x1b[4m&quot; Blink = &quot;\x1b[5m&quot; Reverse = &quot;\x1b[7m&quot; Hidden = &quot;\x1b[8m&quot;  FgBlack = &quot;\x1b[30m&quot; FgRed = &quot;\x1b[31m&quot; FgGreen = &quot;\x1b[32m&quot; FgYellow = &quot;\x1b[33m&quot; FgBlue = &quot;\x1b[34m&quot; FgMagenta = &quot;\x1b[35m&quot; FgCyan = &quot;\x1b[36m&quot; FgWhite = &quot;\x1b[37m&quot;  BgBlack = &quot;\x1b[40m&quot; BgRed = &quot;\x1b[41m&quot; BgGreen = &quot;\x1b[42m&quot; BgYellow = &quot;\x1b[43m&quot; BgBlue = &quot;\x1b[44m&quot; BgMagenta = &quot;\x1b[45m&quot; BgCyan = &quot;\x1b[46m&quot; BgWhite = &quot;\x1b[47m&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="@nodelog" value="console.log('\x1b[33m%s\x1b[0m:', '$comment$' , $variable$)" description="Reset = &quot;\x1b[0m&quot; Bright = &quot;\x1b[1m&quot; Dim = &quot;\x1b[2m&quot; Underscore = &quot;\x1b[4m&quot; Blink = &quot;\x1b[5m&quot; Reverse = &quot;\x1b[7m&quot; Hidden = &quot;\x1b[8m&quot;  FgBlack = &quot;\x1b[30m&quot; FgRed = &quot;\x1b[31m&quot; FgGreen = &quot;\x1b[32m&quot; FgYellow = &quot;\x1b[33m&quot; FgBlue = &quot;\x1b[34m&quot; FgMagenta = &quot;\x1b[35m&quot; FgCyan = &quot;\x1b[36m&quot; FgWhite = &quot;\x1b[37m&quot;  BgBlack = &quot;\x1b[40m&quot; BgRed = &quot;\x1b[41m&quot; BgGreen = &quot;\x1b[42m&quot; BgYellow = &quot;\x1b[43m&quot; BgBlue = &quot;\x1b[44m&quot; BgMagenta = &quot;\x1b[45m&quot; BgCyan = &quot;\x1b[46m&quot; BgWhite = &quot;\x1b[47m&quot;" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="esimport" value="import $importVar$ from '$importPath$';" description="es6 import statement" toReformat="false" toShortenFQNames="true">
+  <template name="esimport" value="import $importVar$ from '$importPath$';" description="es6 import statement" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="importVar" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="importPath" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

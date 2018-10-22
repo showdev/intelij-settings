@@ -1,66 +1,66 @@
 <templateSet group="user">
-  <template name="f" value="function $name$($params$) {&#10;    $END$&#10;}" description="Unonymous function" toReformat="true" toShortenFQNames="true">
+  <template name="f" value="function $name$($params$) {&#10;    $END$&#10;}" description="Unonymous function" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="if" value="if ($conditions$) {&#10;      $END$&#10;    }" description="An If Statement" toReformat="true" toShortenFQNames="true">
+  <template name="if" value="if ($conditions$) {&#10;      $END$&#10;    }" description="An If Statement" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="conditions" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="esdis" value="/* eslint-disable $RULE$ */" description="Disable some eslint rule" toReformat="true" toShortenFQNames="true">
+  <template name="esdis" value="/* eslint-disable $RULE$ */" description="Disable some eslint rule" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="RULE" expression="" defaultValue="some-rule" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="inject" value="'ngInject';" description="ng-annotate string" toReformat="true" toShortenFQNames="true">
+  <template name="inject" value="'ngInject';" description="ng-annotate string" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="dir" value=".directive('$dirName$', $dirName$)" description="ng directive Regstration" toReformat="true" toShortenFQNames="true">
+  <template name="dir" value=".directive('$dirName$', $dirName$)" description="ng directive Regstration" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="dirName" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="expdir" value="import templateUrl from './$path$'&#10;&#10;export function $name$Directive () {&#10;  &#10;}" description="export directive" toReformat="true" toShortenFQNames="true">
+  <template name="expdir" value="import templateUrl from './$path$'&#10;&#10;export function $name$Directive () {&#10;  &#10;}" description="export directive" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="imtemp" value="import templateUrl from './$path$';" description="import templateUrl" toReformat="true" toShortenFQNames="true">
+  <template name="imtemp" value="import templateUrl from './$path$';" description="import templateUrl" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="routing" value="export const $routingName$ = ($routeProvider) =&gt; {&#10;  'ngInject';&#10;  $routeProvider&#10;  &#10;  .when()&#10;  &#10;  ;&#10;};" description="" toReformat="true" toShortenFQNames="true">
+  <template name="routing" value="export const $routingName$ = ($routeProvider) =&gt; {&#10;  'ngInject';&#10;  $routeProvider&#10;  &#10;  .when()&#10;  &#10;  ;&#10;};" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="routingName" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="notused" value="/* TODO-migration possibly not used */" description="not use note" toReformat="true" toShortenFQNames="true">
+  <template name="notused" value="/* TODO-migration possibly not used */" description="not use note" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JS_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="expctrl" value="&#10;import templateUrl from './$path$';&#10;&#10;export function $name$Controller () {&#10;  &#10;}&#10;&#10;$name$Controller.templateUrl = templateUrl;&#10;$name$Controller.resolve = {};" description="export controller" toReformat="true" toShortenFQNames="true">
+  <template name="expctrl" value="&#10;import templateUrl from './$path$';&#10;&#10;export function $name$Controller () {&#10;  &#10;}&#10;&#10;$name$Controller.templateUrl = templateUrl;&#10;$name$Controller.resolve = {};" description="export controller" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="expcomp" value="import templateUrl from './$path$';&#10;&#10;export const $name$Component = {&#10;  &#10;}" description="export component" toReformat="true" toShortenFQNames="true">
+  <template name="expcomp" value="import templateUrl from './$path$';&#10;&#10;export const $name$Component = {&#10;  &#10;}" description="export component" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
