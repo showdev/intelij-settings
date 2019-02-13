@@ -9,36 +9,4 @@
     <lookup />
   </component>
   <component name="Instance" id="e5be5610-c3f3-4f84-9b99-97b40509385d" version="6.3" />
-  <component name="UsageLog">
-    <event name="OpenFile" place="EditorPopup" timestamp="2019-02-13T11:55:53.734Z">
-      <attribute name="editor">true</attribute>
-      <attribute name="multipleLines">false</attribute>
-      <attribute name="multipleCarets">false</attribute>
-      <attribute name="bitbucket">cloud</attribute>
-    </event>
-    <event name="OpenFile" place="EditorPopup" timestamp="2019-02-13T12:00:23.982Z">
-      <attribute name="editor">true</attribute>
-      <attribute name="multipleLines">false</attribute>
-      <attribute name="multipleCarets">false</attribute>
-      <attribute name="bitbucket">cloud</attribute>
-    </event>
-    <event name="OpenFile" place="EditorPopup" timestamp="2019-02-13T12:00:58.168Z">
-      <attribute name="editor">true</attribute>
-      <attribute name="multipleLines">false</attribute>
-      <attribute name="multipleCarets">false</attribute>
-      <attribute name="bitbucket">cloud</attribute>
-    </event>
-    <event name="OpenFile" place="EditorPopup" timestamp="2019-02-13T12:01:06.677Z">
-      <attribute name="editor">true</attribute>
-      <attribute name="multipleLines">false</attribute>
-      <attribute name="multipleCarets">false</attribute>
-      <attribute name="bitbucket">cloud</attribute>
-    </event>
-    <event name="OpenFile" place="EditorPopup" timestamp="2019-02-13T12:01:56.755Z">
-      <attribute name="editor">true</attribute>
-      <attribute name="multipleLines">false</attribute>
-      <attribute name="multipleCarets">false</attribute>
-      <attribute name="bitbucket">cloud</attribute>
-    </event>
-  </component>
 </application>
