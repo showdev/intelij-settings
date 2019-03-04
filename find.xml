@@ -16,6 +16,7 @@
     <mask>*.twig</mask>
     <mask>*.php</mask>
     <mask>*.css</mask>
+    <mask>*.ts</mask>
     <mask>*.js</mask>
   </component>
 </application>
