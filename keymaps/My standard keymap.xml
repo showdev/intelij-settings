@@ -8,5 +8,8 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
   </action>
+  <action id="TsLintFileFixAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt k" />
+  </action>
   <action id="Vcs.ReformatCommitMessage" />
 </keymap>
