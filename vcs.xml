@@ -10,4 +10,7 @@
     </option>
     <option name="cloneParentDir" value="C:\Users\Oleksii.S\WebstormProjects" />
   </component>
+  <component name="VcsApplicationSettings">
+    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/WebstormProjects/hq-client" />
+  </component>
 </application>
