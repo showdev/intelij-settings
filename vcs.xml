@@ -6,6 +6,10 @@
           <option name="url" value="http://ashovgenja@git.salsalabs.net/git/ignite/hq-client.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.salsalabs.net" />
+          <option name="userName" value="ashovgenja" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Oleksii.S\WebstormProjects" />
