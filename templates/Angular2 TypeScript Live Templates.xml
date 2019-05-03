@@ -1,5 +1,5 @@
 <templateSet group="Angular2 TypeScript Live Templates">
-  <template name="a-component" value="import { Component, OnInit } from '@angular/core';&#10;&#10;@Component({&#10; selector: '$selectorname$',&#10; templateUrl: '$name$.component.html'&#10;})&#10;&#10;export class $Name$Component implements OnInit {&#10; constructor() { }&#10;&#10; ngOnInit() { }$END$&#10;}" description="Angular component" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-component" value="import { Component, OnInit } from '@angular/core';&#10;&#10;@Component({&#10; selector: '$selectorname$',&#10; templateUrl: '$name$.component.html'&#10;})&#10;&#10;export class $Name$Component implements OnInit {&#10; constructor() { }&#10;&#10; ngOnInit() { }$END$&#10;}" description="Angular component" toReformat="false" toShortenFQNames="true">
     <variable name="selectorname" expression="" defaultValue="&quot;selector-name&quot;" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
