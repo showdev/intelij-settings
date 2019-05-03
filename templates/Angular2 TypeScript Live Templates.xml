@@ -55,7 +55,7 @@
     <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="path" expression="" defaultValue="&quot;path&quot;" alwaysStopAt="true" />
   </template>
-  <template name="a-module" value="import { NgModule } from '@angular/core';&#10;&#10;import { $Name$Component } from './$name$.component';&#10;&#10;@NgModule({&#10; imports: [],&#10; exports: [],&#10; declarations: [$Name$Component],&#10; providers: [],&#10;})&#10;export class $Name$Module { }&#10;$END$" description="Angular Module" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-module" value="import { NgModule } from '@angular/core';&#10;&#10;import { $Name$Component } from './$name$.component';&#10;&#10;@NgModule({&#10; imports: [],&#10; exports: [],&#10; declarations: [$Name$Component],&#10; providers: [],&#10;})&#10;export class $Name$Module { }&#10;$END$" description="Angular Module" toReformat="false" toShortenFQNames="true">
     <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
   </template>
