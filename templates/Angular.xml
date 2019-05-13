@@ -262,4 +262,9 @@
     <variable name="property" expression="" defaultValue="&quot;property&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="a-module" value="import { NgModule } from '@angular/core';&#10;&#10;import { $Name$Component } from './$name$.component';&#10;&#10;@NgModule({&#10; imports: [],&#10; exports: [],&#10; declarations: [$Name$Component],&#10; providers: [],&#10;})&#10;export class $Name$Module { }&#10;$END$" description="Angular Module" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="lowercaseAndDash(Name)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
