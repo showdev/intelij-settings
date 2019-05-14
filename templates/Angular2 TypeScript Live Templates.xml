@@ -68,9 +68,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="a-directive" value="import { Directive } from '@angular/core';&#10;&#10;@Directive({ selector: '[$selectorname$]' })&#10;export class $Name$Directive {&#10; constructor() { }&#10;}" description="Angular directive" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-directive" value="import { Directive } from '@angular/core';&#10;&#10;@Directive({ selector: '[$selectorname$]' })&#10;export class $Name$Directive {&#10; constructor() { }&#10;}" description="Angular directive" toReformat="false" toShortenFQNames="true">
     <variable name="selectorname" expression="" defaultValue="&quot;selector-name&quot;" alwaysStopAt="true" />
     <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
   </template>
   <template name="a-guard-can-activate" value="import { Injectable } from '@angular/core';&#10;import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot } from '@angular/router';&#10;&#10;@Injectable()&#10;export class $Name$Guard implements CanActivate {&#10; constructor() { }&#10;&#10; canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {&#10;  return true;$END$&#10; }&#10;}" description="Angular CanActivate guard" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
