@@ -31,5 +31,6 @@
     <ignoreAction name="React/Convert to functional component" />
     <ignoreAction name="JavaScript/Language Injection/Annotate injection with comment" />
     <ignoreAction name="JavaScript/Language Injection/Don't format injected content" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Propagate to destructuring declaration" />
   </component>
 </application>
