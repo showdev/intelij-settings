@@ -13,12 +13,6 @@
     <variable name="App" expression="" defaultValue="&quot;App&quot;" alwaysStopAt="true" />
     <variable name="app" expression="lowercaseAndDash(App)" defaultValue="" alwaysStopAt="true" />
   </template>
-  <template name="a-component" value="import { Component, OnInit } from '@angular/core';&#10;&#10;@Component({&#10; moduleId: module.id,&#10; selector: '$selector_name$',&#10; templateUrl: '$name$.component.html'&#10;})&#10;&#10;export class $Name$Component implements OnInit {&#10; constructor() { }&#10;&#10; ngOnInit() { }$END$&#10;}" description="Angular component" toReformat="true" toShortenFQNames="true">
-    <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
-    <variable name="name" expression="lowercaseAndDash(Name)" defaultValue="" alwaysStopAt="true" />
-    <variable name="selector_name" expression="lowercaseAndDash(Name)" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
   <template name="a-route-path-default" value="{ path: '', pathMatch: 'full', redirectTo: '$dashboard$' }$END$" description="Angular default route path" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="dashboard" expression="" defaultValue="&quot;dashboard&quot;" alwaysStopAt="true" />
     <context />
@@ -229,7 +223,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="a-upgrade-component" value="import {&#10;  Directive,&#10;  ElementRef,&#10;  Injector,&#10;} from '@angular/core';&#10;import { UpgradeComponent } from '@angular/upgrade/static';&#10;&#10;@Directive({selector: 'p2p-dashboard'})&#10;export class P2PDashboardComponent extends UpgradeComponent {&#10;  constructor(elementRef: ElementRef, injector: Injector) {&#10;    super('p2pDashboard', elementRef, injector);&#10;  }&#10;}" description="Angular Upgrade Component Directive" toReformat="true" toShortenFQNames="true">
+  <template name="a-upgrade-component" value="import {&#10;  Directive,&#10;  ElementRef,&#10;  Injector,&#10;} from '@angular/core';&#10;import { UpgradeComponent } from '@angular/upgrade/static';&#10;&#10;@Directive({selector: '$selector_name$'})&#10;export class $Name$Component extends UpgradeComponent {&#10;  constructor(elementRef: ElementRef, injector: Injector) {&#10;    super('p2pDashboard', elementRef, injector);&#10;  }$END$&#10;}" description="Angular Upgrade Component Directive" toReformat="true" toShortenFQNames="true">
+    <variable name="selector_name" expression="lowercaseAndDash(Name)" defaultValue="" alwaysStopAt="true" />
+    <variable name="Name" expression="lowercaseAndDash(Name)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
