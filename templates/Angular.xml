@@ -267,4 +267,11 @@
     <variable name="name" expression="lowercaseAndDash(Name)" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="a-resolve" value="import { Injectable } from '@angular/core';&#10;import {&#10;  ActivatedRouteSnapshot,&#10;  Resolve, Router,&#10;  RouterStateSnapshot,&#10;} from '@angular/router';&#10;import { Observable } from 'rxjs';&#10;&#10;@Injectable()&#10;export class $Name$Resolver implements Resolve&lt;any&gt; {&#10;  constructor() {&#10;  }&#10;&#10;  resolve(&#10;    route: ActivatedRouteSnapshot,&#10;    state: RouterStateSnapshot,&#10;  ): Observable&lt;any&gt; | Promise&lt;any&gt; | any {&#10;   &#10;  }$END$&#10;}" description="Angular Resolver" toReformat="true" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
