@@ -34,7 +34,4 @@
       <NestingRule child-file-suffix=".js" parent-file-suffix=".vue" />
     </nesting-rules>
   </component>
-  <component name="UISettings">
-    <option name="SHOW_MEMORY_INDICATOR" value="true" />
-  </component>
 </application>
