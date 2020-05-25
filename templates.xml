@@ -3839,6 +3839,30 @@
           <option name="key" value="scu" />
         </TemplateKey>
         <TemplateKey>
+          <option name="groupName" value="HTTP Request" />
+          <option name="key" value="gtr" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="HTTP Request" />
+          <option name="key" value="gtrp" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="HTTP Request" />
+          <option name="key" value="ptr" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="HTTP Request" />
+          <option name="key" value="ptrp" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="HTTP Request" />
+          <option name="key" value="mptr" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="HTTP Request" />
+          <option name="key" value="fptr" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="AngularJS " />
           <option name="key" value="ngdcf" />
         </TemplateKey>
@@ -3941,30 +3965,6 @@
         <TemplateKey>
           <option name="groupName" value="AngularJS " />
           <option name="key" value="$e" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="HTTP Request" />
-          <option name="key" value="gtr" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="HTTP Request" />
-          <option name="key" value="gtrp" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="HTTP Request" />
-          <option name="key" value="ptr" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="HTTP Request" />
-          <option name="key" value="ptrp" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="HTTP Request" />
-          <option name="key" value="mptr" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="HTTP Request" />
-          <option name="key" value="fptr" />
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="Shell Script" />
